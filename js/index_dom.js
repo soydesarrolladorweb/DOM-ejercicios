@@ -27,7 +27,7 @@ d.addEventListener("DOMContentLoaded", (e)=>{
     alarm("assets/alarma.mp3", "#activar-alarma", "#desactivar-alarma");
     countdown(
         "countdown",
-         "Dec 31, 2022 23:59:00",
+         "Sept 17, 2022 6:00:00",
          "Nunca pares de aprender."
         );
     scrollTopButton(".scroll-top-btn");
