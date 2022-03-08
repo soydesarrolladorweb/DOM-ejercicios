@@ -57,10 +57,10 @@ d.addEventListener("DOMContentLoaded", (e)=>{
 });
 
 // eventos del teclado
-d.addEventListener("keydown", (e)=>{
-    shortcuts(e);
-    moveBall(e, ".ball", ".stage");
-});
+// d.addEventListener("keydown", (e)=>{
+//     shortcuts(e);
+//     moveBall(e, ".ball", ".stage");
+// });
 
 darkTheme(".dark-theme-btn", "dark-mode"); 
 networkStatus();

@@ -19,8 +19,9 @@
     </button>
     <aside class="panel">
         <nav class="menu">
-            <a href="#section1" data-scroll-spy>Reloj Digital y Alarma Sonora</a>
-            <a href="#section2" data-scroll-spy>Eventos del Teclado</a>
+            <a href="#section1" data-scroll-spy>Video Inteligente</a>
+            <a href="#section2" data-scroll-spy>Reloj Digital y Alarma Sonora</a>
+            <!-- <a href="#section2" data-scroll-spy>Eventos del Teclado</a> -->
             <a href="#section3" data-scroll-spy>Cuenta Regresiva Año Actual</a>
             <a href="#section4" data-scroll-spy>Web Performance Optimization</a>
             <a href="#section5" data-scroll-spy>Responsive Tester</a>
@@ -31,13 +32,19 @@
             <a href="#section10" data-scroll-spy>Filtros de Búsquedas</a>
             <a href="#section11" data-scroll-spy>Sorteo Digital Turistico</a>
             <a href="#section12" data-scroll-spy>Responsive Slider</a>
-            <a href="#section13" data-scroll-spy>Video Inteligente</a>
-            <a href="#section14" data-scroll-spy>Validaciones de Formulario</a>
+            <a href="#section13" data-scroll-spy>Validaciones de Formulario</a>
             <!-- <a href="#section15" data-scroll-spy>Narrador de Textos</a> -->
         </nav>
     </aside>
     <main>
+
         <section id="section1" class="section"  data-scroll-spy>
+            <h2>Video Inteligente</h2>
+            <h4>Reproducción automatica unicamente en el rango visual.</h4>
+            <video class="smartVideo" src="assets/paraiso.mp4" muted controls loop data-smart-video></video>
+        </section>
+
+        <section id="section2" class="section center"   data-scroll-spy>
             <h2>Reloj Digital y Alarma Sonora</h2>
             <div id="reloj"></div>
             <div>
@@ -47,19 +54,19 @@
                 <button id="desactivar-alarma">Detener Alarma</button>
             </div>
         </section>
-        <section id="section2" class="section"  data-scroll-spy>
+        <!-- <section id="section2" class="section"  data-scroll-spy>
             <h2>Eventos del Teclado</h2>
             <h4>Haz Click dentro del cuadro azul y controla el movimiento del sol con las flechas del teclado.</h4>
             <article class="stage">
                 <div class="ball"></div>
             </article>
-        </section>
-        <section id="section3" class="section"  data-scroll-spy>
+        </section> -->
+        <section id="section3" class="section center"  data-scroll-spy>
             <h2>Cuenta Regresiva Año 2022</h2>
-            <h4>¡Aún tienes tiempo! Si te lo propones lo puedes lograr.🔥</h4>
+            <h4>¡Si te lo propones lo puedes lograr.! 🔥</h4>
             <div id="countdown"></div>
         </section>
-        <section id="section4" class="section"  data-scroll-spy>
+        <section id="section4" class="section center"  data-scroll-spy>
             <h2> Web Performance Optimization</h2>
             <h4>Tecnología aplicada al ahorro de datos del usuario final, los recursos estarán habilitados en desktop y para Mobile el usuario tomará la decisión de utilizarlos.</h4>
             <!--por que id y no clases: Como cada e va a capturar un contenido en particular nos ayudamos de la 
@@ -73,9 +80,9 @@
             <form id="responsive-tester">
                 <input name="direccion" type="url" placeholder="URL" required>
                 <br>
-                <input name="ancho" type="text" placeholder="Ancho" required>
+                <input name="ancho" type="text" placeholder="Ej: 800" required>
                 <br>
-                <input name="alto" type="text" placeholder="Alto" required>
+                <input name="alto" type="text" placeholder="Ej: 600" required>
                 <br>
                 <input name="probar" type="submit" value="Probar">
                 <input name="cerrar" type="button" value="Cerrar">
@@ -90,7 +97,7 @@
             <h4>En el instante que pierdas tu señal de internet saldrá un aviso.</h4>
         </section>
         <section id="section8" class="section"  data-scroll-spy>
-            <h2>Detección de la cámara Web <br> Te puedo ver</h2></h2>
+            <h2>Detección de la cámara Web</h2>
             <video id="webcam"></video>
         </section>
         <section id="section9" class="section"  data-scroll-spy>
@@ -167,11 +174,6 @@
             </div>
         </section>
         <section id="section13" class="section"  data-scroll-spy>
-            <h2>Video Inteligente</h2>
-            <h4>Tecnologia utilizada en Netflix o facebook <br> Reproducción automatica unicamente en el rango visual.</h4>
-            <video class="smartVideo" src="assets/paraiso.mp4" muted controls loop data-smart-video></video>
-        </section>
-        <section id="section14" class="section"  data-scroll-spy>
             <h2>Validaciones de Formulario</h2>
             <form class="contact-form">
             <!-- <form class="contact-form" action="https://formsubmit.co/correo-al-queQuieras@quellegue" method="POST" target="_blank"> -->

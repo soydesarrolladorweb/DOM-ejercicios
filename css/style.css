@@ -32,6 +32,7 @@ img{
     height: auto;
 }
 
+
 /* ***** Menu Hamburguesa ******* */
 .header{
     position: sticky;
@@ -57,6 +58,20 @@ img{
     min-height: 100vh;
     text-align: center;
 }
+
+/* section1 and section2*/
+.center h2{
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+
+.center #reloj{
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+}
+/*                     */
 
 .panel{
     position: fixed;
@@ -145,6 +160,14 @@ img{
     background-color: var(--main-color);
 }
 
+/* Estado de pruebas Mobile*/
+/* @media screen and (max-width: 1024px) {
+    #section2 article{
+        visibility: hidden;
+    }
+
+} */
+
 
 /* ******* SCROLL TOP BUTTON VIDEO 87******* */
 
@@ -208,6 +231,18 @@ img{
     color: var(--main-color);
 }
 
+.dark-mode input{
+    background-color: white;
+    color: var(--second-color);
+}
+
+#responsive-tester{
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
 /* ******* Network Status ******** */
 
 .online,
@@ -226,6 +261,15 @@ img{
 .offline{
     background-color: #b71c1c;
 }
+
+@media screen and (min-width: 320px) {
+        #webcam{
+            width: 80%;
+            height: 400px;
+            margin: 1rem auto;
+            object-fit: cover;
+        } 
+    }
 
 /* ******* SearchFilters ******** */
 
