@@ -262,7 +262,7 @@ img{
     background-color: #b71c1c;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 720px) {
         #webcam{
             width: 80%;
             height: 400px;
