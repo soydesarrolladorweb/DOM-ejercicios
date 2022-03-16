@@ -454,7 +454,7 @@ img{
     --form-error-color: #f44336;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    max-width: 70%;
 }
 
 .contact-form > *{
@@ -462,6 +462,7 @@ img{
     margin: 1rem auto;
     display: block;
     width: 100%;
+    border-radius: 8px;
 }
 
 .contact-form textarea{
@@ -485,7 +486,15 @@ img{
     width: 50%;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: none;
+    border-radius: 0 12px 0 12px;
+    transition:  background-color 300ms ease-in-out;
 }
+
+.contact-form input[type="submit"]:hover{
+    background-color: var(--main-color);
+}
+
 
 .contact-form *::placeholder{
     color: #000;

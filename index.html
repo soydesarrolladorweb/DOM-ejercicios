@@ -40,7 +40,7 @@
 
         <section id="section1" class="section"  data-scroll-spy>
             <h2>Video Inteligente</h2>
-            <h4>Reproducción automatica unicamente en el rango visual.</h4>
+            <p><b> Reproducción automatica dentro del rango visual.</b></p>
             <video class="smartVideo" src="assets/paraiso.mp4" muted controls loop data-smart-video></video>
         </section>
         <section id="section2" class="section"  data-scroll-spy>
@@ -48,16 +48,16 @@
             <div class="slider">
                 <div class="slider-slides">
                     <div class="slider-slide active">
-                        <img src="https://placeimg.com/400/400/animals" alt="Animals">
+                        <img src="assets/anuncio1.png" alt="Animals">
                     </div>
                     <div class="slider-slide">
-                        <img src="https://placeimg.com/400/400/tech" alt="Technology">
+                        <img src="assets/anuncio2.png" alt="Technology">
                     </div>
                     <div class="slider-slide">
-                        <img src="https://placeimg.com/400/400/arch" alt="Architecture">
+                        <img src="assets/anuncio3.png" alt="Architecture">
                     </div>
                     <div class="slider-slide">
-                        <img src="https://placeimg.com/400/400/arch/sepia" alt="Architecture-Sepia">
+                        <img src="assets/anuncio4.png" alt="Architecture-Sepia">
                     </div>
                 </div>
                 <div class="slider-btns">
@@ -77,7 +77,7 @@
 
         <section id="section3" class="section center"  data-scroll-spy>
             <h2> Web Performance Optimization</h2>
-            <h4>Tecnología aplicada al ahorro de datos del usuario final, los recursos estarán habilitados en desktop y para Mobile el usuario tomará la decisión de utilizarlos.</h4>
+            <p><b>Tecnología personalizada para la optimización de recursos en versión mobile.</b></p>
             <!--por que id y no clases: Como cada elm va a capturar un contenido en particular nos ayudamos de la 
                 invocación de la función para evaluar dichos elementos -->
             <div id="youtube"></div>
@@ -91,7 +91,7 @@
         
         <section id="section5" class="section"  data-scroll-spy>
             <h2>Responsive Tester</h2>
-            <h4>Ingresa la dirección de tu página favorita y en los pixeles que la deseas ver.</h4>
+            <p><b>Ingresa la dirección de tu página favorita y en los pixeles que la deseas ver.</b></p>
             <form id="responsive-tester">
                 <input name="direccion" type="url" placeholder="URL" required>
                 <br>
@@ -109,7 +109,7 @@
         </section>
         <section id="section7" class="section"  data-scroll-spy>
             <h2>Detección de la conexión</h2>
-            <h4>En el instante que pierdas tu señal de internet saldrá un aviso.</h4>
+            <p><b>En el instante que pierdas tu señal de internet saldrá un aviso.</b></p>
         </section>
         <section id="section8" class="section"  data-scroll-spy>
             <h2>Detección de la cámara Web</h2>
@@ -118,7 +118,7 @@
 
         <section id="section9" class="section center"  data-scroll-spy>
             <h2>Cuenta Regresiva</h2>
-            <h4>¡El programador de esta Web Site Cumple en! 🔥</h4>
+            <p>¡El programador de esta Web Site Cumple en! 🔥</p>
             <div id="countdown"></div>
         </section>
 
@@ -142,29 +142,21 @@
                   <img src="https://placeimg.com/200/200/animals" loading="lazy" alt="Animals">
                   <figcaption>Animals</figcaption>
                 </figure>
-                <!-- <figure class="card">
-                  <img src="https://placeimg.com/200/200/people" alt="People">
-                  <figcaption>People</figcaption>
-                </figure>
-                <figure class="card">
-                  <img src="https://placeimg.com/200/200/arch" alt="Architecture">
-                  <figcaption>Architecture</figcaption>
-                </figure> -->
               </article>
         </section>
         <section id="section11" class="section"  data-scroll-spy>
-            <h2>Sitios turisticos que podras conocer</h2>
+            <h2>Sorteo Digital</h2>
             <ul class="players">
-                <li class="player">Playa Rodadero, Santa Marta</li>
-                <li class="player">Punta Gallinas, La Guajira</li>
-                <li class="player">Caño Cristales, Meta</li>
-                <li class="player">Reserva Río Claro, Antioquia</li>
-                <li class="player">Desierto de la Tatacoa, Huila</li>
-                <li class="player">Puerto Nariño, Amazonas</li>
-                <li class="player">Parque Nacional Natural Utría, Chocó</li>
-                <li class="player">Parque Natural Los Estoraques, Norte de Santander</li>
-                <li class="player">Ciudad Perdida, Magdalena</li>
-                <li class="player">Parque Nacional Tayrona, Santa Marta</li>
+                <li class="player">Playa Rodadero: Santa Marta</li>
+                <li class="player">Punta Gallinas: La Guajira</li>
+                <li class="player">Caño Cristales: Meta</li>
+                <li class="player">Reserva Río Claro: Antioquia</li>
+                <li class="player">Desierto de la Tatacoa: Huila</li>
+                <li class="player">Puerto Nariño: Amazonas</li>
+                <li class="player">Parque Nacional Natural Utría: Chocó</li>
+                <li class="player">Parque Natural Los Estoraques: Norte de Santander</li>
+                <li class="player">Ciudad Perdida: Magdalena</li>
+                <li class="player">Parque Nacional Tayrona: Santa Marta</li>
             </ul>
             <button id="winner-btn">Iniciar Sorteo</button>
         </section>
@@ -185,10 +177,10 @@
             <form class="contact-form">
             <!-- <form class="contact-form" action="https://formsubmit.co/correo-al-queQuieras@quellegue" method="POST" target="_blank"> -->
                 <legend>Envíanos tus comentarios</legend>
-                <input type="text" name="name" placeholder="Escribe tu nombre" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-                <input type="email" name="email" placeholder="Escribe tu email" title="Email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
-                <input type="text" name="subject" placeholder="Asunto a tratar" title="El Asunto es requerido" required>
-                <textarea name="comments" cols="50" rows="5" placeholder="Escribe tus comentarios" title="Tu comentario no debe exceder los 255 caracteres" data-pattern="^.{1,255}$" required></textarea>
+                <input type="text" name="name" placeholder="Nombre" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <input type="email" name="email" placeholder="Email" title="Email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                <input type="text" name="subject" placeholder="Asunto" title="El Asunto es requerido" required>
+                <textarea name="comments" cols="50" rows="5" placeholder="Comentarios" title="Tu comentario no debe exceder los 255 caracteres" data-pattern="^.{1,255}$" required></textarea>
                 <input type="submit" value="Enviar">
                 <div class="contact-form-loader none">
                     <img src="assets/loader.svg" alt="Cargando">
