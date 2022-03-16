@@ -49,7 +49,7 @@ img{
 }
 
 .section{
-    padding: 2rem;
+    padding: 1.1rem;
     padding-top: 4rem;
     margin-left: auto;
     margin-right: auto;
@@ -60,10 +60,10 @@ img{
 }
 
 /* section1 and section2*/
-.center h2{
+/* .center h2{
     padding: 1rem;
     padding-top: 2rem;
-}
+} */
 
 
 .center #reloj{
@@ -91,13 +91,13 @@ img{
     /*De abajo*/
     /* transform: translate(0, 100%); */
     /*De la derecha*/
-    /* transform: translate(100%, 0); */
+    transform: translate(100%, 0);
     /*De la izquierda*/
     /* transform: translate(-100%, 0); */
 }
 
 .panel.is-active{
-    /* transform: translate(0, 0); */
+    transform: translate(0, 0);
     opacity: 1;
     visibility: visible;
 }
@@ -107,14 +107,15 @@ img{
     z-index: 999;
     bottom: 1vh;
     right: 1vw;
-    width: 4rem;
-    height: 4rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
+    overflow: hidden;
 }
 
 .menu{
@@ -175,12 +176,12 @@ img{
 .scroll-top-btn{
     position: fixed;
     z-index: 999;
-    bottom: 15vh;
+    bottom: 16vh;
     right: 1vw;
-    width: 4rem;
-    height: 4rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     background-color: var(--main-color);
     color: var(--second-color);
@@ -208,10 +209,10 @@ img{
     z-index: 999;
     bottom: 1vh;
     left: 1vw;
-    width: 4rem;
-    height: 4rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
     background-color: var(--main-color);
     color: var(--second-color);
@@ -335,7 +336,9 @@ img{
     /* con cover se adapta al ancho del contenedor */
     object-position: 50% 15%;
     /* con object-position primer valor X  segundo valor Y */
+    border-radius: 0.4rem;
 }
+
 
 .slider-slide.active{
     opacity: 1;
@@ -345,7 +348,7 @@ img{
 .slider-btns{
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 60%;
     display: flex;
     justify-content: space-between;
     font-size: 3rem;
@@ -354,19 +357,29 @@ img{
 
 .slider a{
     display: block;
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 50%;
-    border: thin solid #000;
+    border: groove solid #000;
     text-decoration: none;
-    background-color: #fff;
-    color: #000;
+    background-color: rgba(255, 255, 255, 0.596);
+    color: var(--second-modal-color);
+    /* color: #000; */
     transition: all 2s ease;
 }
+
+
 
 .slider a:hover{
     color:var(--main-color);
 }
+
+@media screen and (min-width: 520px) {
+    .slider-slide img{
+        height: 90vh;
+    }
+}
+
 
 /* ************* ScrollSpy ************* */
 
